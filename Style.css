@@ -1,14 +1,60 @@
-@font-face {
-    font-family:'Quicksand';
-    src: url("Quicksand-Font.ttf")
-}
 body {
-    font-family:'Quicksand';
-    width:400px;
-    height:400px;
+    margin:0px;
+    padding:0px;
 }
-button.hover-box {
+@font-face {
+    font-family: 'Quicksand';
+    src: url(Quicksand-Font.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+#carouselExampleIndicators {
+    width:50%;
+    margin:0% 25% 0% 25%;
+}
+.carousel-caption {
+    font-family:'Quicksand';
+    font-size:24px;
+}
+button {
     outline:none;
-    border-radius:1000px;
-    border:;
+    border:none;
+    border-radius:10000px;
+    background-color:white;
+    margin:5px;
+    font-family:'Quicksand';
+    padding:7px;
+}
+nav {
+    background-color:#ff7b26;
+    color:white;
+    width:100%;
+    display:flex;
+}
+ul {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}
+
+li {
+    display:flex;
+    margin:0px;
+}
+li a {
+    font-size:18px;
+    font-family:'Quicksand';
+    padding:10px 20px 10px 20px;
+    text-decoration:none;
+    color:white;
+    transition-duration:0.5s;
+}
+li a:hover {
+    text-decoration:none;
+    background-color:white;
+    color:#ff7b26;
 }
